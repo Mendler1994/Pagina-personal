@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/estilos.css" type="text/css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div  id="logo">
+                <a href="Index.html">
+                    <h1 class="cian">M</h1>
+                    <h1 class="magenta">e</h1>
+                    <h1 class="cian">n</h1>
+                    <h1 class="magenta">d</h1>
+                    <h1 class="cian">l</h1>
+                    <h1 class="magenta">e</h1>
+                    <h1 class="cian">r</h1>
+                </a>
+            </div>
+            
+            <div> <!-- >770px menú hamburguesa-->
+                <ul>
+                    <a href="Index.html"><li class="boton">Home</li></a>
+                    <li>|</li>
+                    <a href="Sobre_mi.html"><li class="boton">Sobre mi</li></a>
+                    <li>|</li>
+                    <a href="Trabajos.html"><li class="boton">Trabajos</li></a>
+                    <li>|</li>
+                    <a href="CV.html"><li class="boton">Conocimientos</li></a>
+                    <li>|</li>
+                    <a href="Contacto.html"><li class="boton">Contacto</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-contacto">
+		<form class="formulario-contacto" action="enviar.php"> <!--Asumiendo que se cuenta con un servidor que tiene soporte activado para PHP-->
+			<h2>Contacto</h2>
+			<input type="text" name="nombre" placeholder="Nombre*" required>
+			<input type="text" name="e-mail" placeholder="e-mail*" required>
+			<input type="text" name="asunto" placeholder="Asunto">
+			<textarea name="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje aquí.*" required></textarea>
+			<p>* Campos obligatorios</p>
+			<input type="submit" value="Enviar" class="enviar"> 
+		</form>
+	</main>
+
+    <footer> 
+        
+        <a href="https://www.facebook.com/" target="_blank"><img src="Recursos/appicon-fb.png" alt="Logo de Facebook" id="logofb"></a>
+    	<a href="https://twitter.com/" arget="_blank"><img src="Recursos/appicon-tw.png" alt="Logo de Twitter"></a>
+    	<a href="https://www.instagram.com/"  target="_blank"><img src="Recursos/appicon-ig.png" alt="Logo de Instagram"></a>
+	    <a href="https:www.behance.net" arget="_blank"><img src="Recursos/appicon-bh.png" alt="Logo de Behance"></a>
+        
+    </footer>
+</body>
+</html>
